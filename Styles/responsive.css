@@ -1,0 +1,17 @@
+@media (max-width: 1024px) { 
+    li{
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    li{
+        width: 400px;
+    }
+    h1{
+        font-size: 4em;
+    }
+    footer a{
+        font-size: 2em;
+    }
+ }

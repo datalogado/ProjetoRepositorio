@@ -1,0 +1,107 @@
+body{
+    margin: 4%;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    display: flex;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    text-align: center;
+}
+
+h1{
+    font-size: 6em;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 10px 0 0 0;
+    padding: 2% 0 0 2%;
+    height: 120px;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(136, 136, 136);
+    font-size: 3em;
+    text-align: start;
+    font-weight: 600;
+}
+
+.ACMECard{
+    transform: skew(2deg, -2deg);
+    background-color: rgb(241, 228, 162);
+}
+
+.Animation:hover{
+    transform: scale(1.1) translateY(-12px);
+}
+
+.UBERCard{
+    transform: skew(-2deg, 2deg);
+    background-color: rgb(162, 241, 166);
+}
+
+.AmazonCard{
+    transform: skew(2deg, -2deg);
+    background-color: rgb(209, 162, 241);
+}
+
+.NetflixCard{
+    transform: skew(-2deg, 2deg);
+    background-color: rgb(241, 204, 162);
+}
+
+.BudegaCard{
+    transform: skew(2deg, -2deg);
+    background-color: rgb(241, 162, 237);
+}
+
+.ViametroCard{
+    transform: skew(-2deg, 2deg);
+    background-color: rgb(162, 241, 241);
+}
+
+.AssisCard{
+    transform: skew(2deg, -2deg);
+    background-color: rgb(241, 162, 162);
+}
+
+footer{
+    margin: 3% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+footer a {
+    font-size: 3em;
+    text-decoration: underline;
+    color: rgb(46, 37, 9);
+}
+
+.link:hover{
+    color: rgb(165, 163, 19);
+}
